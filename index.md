@@ -1,8 +1,8 @@
-# Privacy Policy — Sushi Belt Tycoon
+# Privacy Policy — Sushi Rush
 
 **Effective date: September 28, 2026** · Contact: **contact.weastcoastgames@gmail.com**
 
-Sushi Belt Tycoon ("the app") is developed by **Weast Coast Games** ("we").
+Sushi Rush ("the app") is developed by **Weast Coast Games** ("we").
 This policy explains what data is handled when you play.
 
 ## Data we collect directly
