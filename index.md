@@ -1,6 +1,6 @@
 # Privacy Policy — Sushi Rush
 
-**Effective date: September 28, 2026** · Contact: **contact.weastcoastgames@gmail.com**
+**Effective date: October 11, 2026** · Contact: **contact.weastcoastgames@gmail.com**
 
 Sushi Rush ("the app") is developed by **Weast Coast Games** ("we").
 This policy explains what data is handled when you play.
@@ -9,58 +9,52 @@ This policy explains what data is handled when you play.
 None. The app requires no account, and your game progress is saved only on
 your device. We never see your name, email, contacts, photos, or files.
 
-## Data collected by third-party services
-The app uses a small number of third-party services, which collect limited
-data on our behalf:
+## Data collected by a third-party service
 
-**Advertising (Unity LevelPlay mediation, with Google AdMob and partner ad
-networks).** To show optional rewarded ads, the ad services may collect your
-device's advertising ID, IP address (which can imply approximate location),
-device information, and ad-interaction data. This may be used to serve and
-measure ads, including personalized ads where permitted and where you have
-consented. The ad networks that may serve ads in the app are Unity Ads, Google
-AdMob, AppLovin, Meta Audience Network, Mintegral and Pangle. See their
-policies:
-- Unity: https://unity.com/legal/game-player-and-app-user-privacy-policy
-- Google: https://policies.google.com/privacy and
+**Gameplay analytics (Google Analytics for Firebase).** The app uses Google's
+Firebase Analytics to understand how the game is played, so we can fix bugs and
+balance the levels. It collects, on our behalf:
+- a random **app-instance ID** created by Firebase for this installation (not
+  your name, email or Google account);
+- **app interactions**: game events such as starting and finishing a level, the
+  result, how many attempts it took, boosters and continues used, plus the
+  sessions Firebase records automatically (first open, session start, time in
+  the app, app updates);
+- **device and app information**: device model, operating system version,
+  language, app version;
+- **approximate location** (country/region/city) that Google derives from your
+  IP address. Google Analytics does not store the IP address itself.
+
+The app does **not** collect your advertising ID (it is removed from the app),
+and ad-personalization signals are turned off. This data is not used for
+advertising and is not sold. Google Analytics keeps user- and event-level data
+for its default retention period (currently 2 months); after that only
+aggregated reports remain. Google processes this data under its own policies:
+- Google Privacy Policy: https://policies.google.com/privacy
+- How Google uses information from apps that use its services:
   https://policies.google.com/technologies/partner-sites
-- AppLovin: https://legal.applovin.com/privacy/
-- Meta: https://www.facebook.com/privacy/policy/
-- Mintegral: https://www.mintegral.com/en/privacy
-- Pangle: https://www.pangleglobal.com/privacy/enduser-en
+- Firebase privacy and security: https://firebase.google.com/support/privacy
 
-**Consent (Google User Messaging Platform).** Where required by law (for
-example in the EEA and the UK), the app asks for your consent before ads use
-personal data. You can change your choice at any time from the in-game
-Settings screen.
-
-**Gameplay analytics (GameAnalytics).** We receive anonymous gameplay
-statistics (e.g., which level players reach, how many attempts a level takes,
-session length, error reports) tied to a random identifier — not to your
-identity. This helps us fix bugs and balance the game. See:
-https://gameanalytics.com/privacy
-
-**Purchases (Google Play Billing).** Optional in-app purchases are processed
-entirely by Google Play. We never see your payment details; we only receive
-confirmation that a purchase was made so we can deliver it. See:
-https://policies.google.com/privacy
+## What the app does not contain
+The current version shows **no ads** and has **no in-app purchases**, and it
+contains no advertising, consent or purchase SDK. If a future version adds
+optional rewarded ads or in-app purchases, we will update this policy before
+that version is released.
 
 ## Your choices
-- **Ads:** all ads are optional; skip the bonus buttons and you'll never see one.
-- **Personalized advertising / ad ID:** use the in-game consent setting, and
-  you can reset or delete your advertising ID and opt out of personalization
-  in Android Settings → Google → Ads (or Settings → Privacy → Ads).
-- **Deletion:** uninstalling the app deletes your local save. To request
-  deletion of analytics data associated with your device, contact us at the
-  email above and we will action it through the provider's deletion tools.
+- **Deletion:** uninstalling the app deletes your local save and the app-instance
+  ID. To request deletion of the analytics data associated with your
+  installation, contact us at the email above and we will delete it through
+  Google Analytics' user-deletion tools.
+- **Questions:** write to the email above.
 
 ## Children
 The app is not directed at children under 13, and we do not knowingly collect
-personal information from children. Ads are configured for a general audience.
+personal information from children.
 
 ## Data security & transfers
-Data handled by these services is encrypted in transit and processed under
-their security practices, which may involve servers outside your country.
+Analytics data is encrypted in transit (HTTPS) and processed under Google's
+security practices, which may involve servers outside your country.
 
 ## Changes
 We'll update this page if our practices change; the effective date above
